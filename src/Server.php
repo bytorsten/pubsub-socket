@@ -90,7 +90,7 @@ class Server extends EventEmitter
             }
         };
 
-        $connection->on('data',$handleData);
+        $connection->on('data', $handleData);
     }
 
     /**

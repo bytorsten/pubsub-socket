@@ -29,7 +29,7 @@ class Publisher
     /**
      * @param string $path
      */
-    public function SetPath(string $path): void
+    public function setPath(string $path): void
     {
         $this->path = $path;
     }
@@ -79,7 +79,8 @@ class Publisher
     /**
      *
      */
-    public function shutdownClient() {
+    public function shutdownClient()
+    {
         if ($this->client) {
             $this->client->close();
             $this->client = null;
