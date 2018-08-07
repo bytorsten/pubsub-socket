@@ -1,0 +1,22 @@
+{
+    "description": "pubsub socket implementation",
+    "type": "library",
+    "name": "bytorsten/pubsub-socket",
+    "authors": [
+        {
+            "name": "Torsten Blindert",
+            "email": "info@by-torsten.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "bytorsten/graphql-subscriptions": "*",
+        "react/socket": "^1.0.0",
+        "clue/socket-raw": "^1.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "byTorsten\\PubSub\\Socket\\": "src/"
+        }
+    }
+}
